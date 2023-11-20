@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .bottom_up_association_evaluation import BottomUpAssociationEvaluation
 from .end2end_evaluation import End2EndEvaluation

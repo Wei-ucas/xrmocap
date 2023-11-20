@@ -3,7 +3,7 @@ import copy
 import logging
 import numpy as np
 import torch
-from mmcv.runner import load_checkpoint
+from mmengine.runner import load_checkpoint
 from torchvision.transforms import Compose
 from tqdm import tqdm
 from typing import List, Tuple, Union, overload

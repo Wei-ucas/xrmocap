@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .mvpose_associator import MvposeAssociator
 

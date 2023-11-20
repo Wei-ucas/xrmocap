@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .kp_loss import SetCriterion
 from .mse_loss import KeypointMSELoss

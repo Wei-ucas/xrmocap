@@ -2,7 +2,7 @@
 import logging
 import numpy as np
 import torch
-from mmcv.runner import load_checkpoint
+from mmengine.runner import load_checkpoint
 from PIL import Image
 from torchvision.transforms import transforms as T
 from typing import List, Tuple, Union

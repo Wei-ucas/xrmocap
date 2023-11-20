@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .matcher import HungarianMatcher
 from .mvp_decoder import MLP, MvPDecoder, MvPDecoderLayer

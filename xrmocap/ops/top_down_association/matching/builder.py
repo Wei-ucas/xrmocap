@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_matching import BaseMatching
 from .multi_way_matching import MultiWayMatching

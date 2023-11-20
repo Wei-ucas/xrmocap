@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_metric import BaseMetric
 from .mpjpe_metric import MPJPEMetric

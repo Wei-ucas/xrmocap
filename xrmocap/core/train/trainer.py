@@ -10,7 +10,7 @@ import torch.distributed as dist
 import torch.optim as optim
 import torch.utils.data
 import torch.utils.data.distributed
-from mmcv.runner import get_dist_info, load_checkpoint
+from mmengine.runner import get_dist_info, load_checkpoint
 from torch.utils.data import DistributedSampler
 from typing import Union
 from xrprimer.utils.log_utils import get_logger

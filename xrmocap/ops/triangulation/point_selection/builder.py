@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .auto_threshold_selector import AutoThresholdSelector
 from .base_selector import BaseSelector

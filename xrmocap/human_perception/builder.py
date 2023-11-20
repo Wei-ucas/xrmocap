@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .bbox_detection.mmdet_detector import MMdetDetector
 from .bbox_detection.mmdet_trt_detector import MMdetTrtDetector

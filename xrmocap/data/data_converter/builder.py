@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_data_converter import BaseDataCovnerter
 from .campus_data_converter import CampusDataCovnerter

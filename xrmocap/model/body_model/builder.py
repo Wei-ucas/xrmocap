@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .smpl import SMPL
 from .smplx import SMPLX

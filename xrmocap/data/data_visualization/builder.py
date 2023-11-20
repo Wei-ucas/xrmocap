@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_data_visualization import BaseDataVisualization
 from .mview_mperson_data_visualization import MviewMpersonDataVisualization

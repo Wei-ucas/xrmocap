@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_estimator import BaseEstimator
 from .mperson_smpl_estimator import MultiPersonSMPLEstimator

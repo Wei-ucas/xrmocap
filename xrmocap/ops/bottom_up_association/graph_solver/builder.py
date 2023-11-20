@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .graph_associate import GraphAssociate
 from .graph_construct import GraphConstruct

@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 from torch.utils.data.dataloader import DataLoader
 
 from xrmocap.data.dataset.builder import build_dataset

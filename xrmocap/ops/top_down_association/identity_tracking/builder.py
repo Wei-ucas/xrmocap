@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_tracking import BaseTracking
 from .keypoints_distance_tracking import KeypointsDistanceTracking

@@ -3,8 +3,8 @@ import logging
 import numpy as np
 import prettytable
 import torch
-from mmcv.runner import build_optimizer
-from mmcv.runner.hooks import Hook
+from mmengine.runner import build_optimizer
+from mmengine.runner.hooks import Hook
 from typing import List, Union
 from xrprimer.transform.convention.keypoints_convention import (  # noqa:E501
     get_keypoint_idx,

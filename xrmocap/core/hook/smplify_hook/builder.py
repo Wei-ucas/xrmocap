@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .smplify_base_hook import SMPLifyBaseHook
 from .smplify_verbose_hook import SMPLifyVerboseHook

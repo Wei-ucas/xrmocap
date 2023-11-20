@@ -1,6 +1,6 @@
 # copy from mmhuman3d
 from abc import ABCMeta, abstractmethod
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 
 class BaseArchitecture(BaseModule, metaclass=ABCMeta):

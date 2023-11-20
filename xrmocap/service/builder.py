@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_flask_service import BaseFlaskService
 from .smpl_stream_service import SMPLStreamService

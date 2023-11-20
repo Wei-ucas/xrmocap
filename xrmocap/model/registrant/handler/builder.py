@@ -1,4 +1,4 @@
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .betas_prior_handler import BetasPriorHandler
 from .body_pose_prior_handler import BodyPosePriorHandler

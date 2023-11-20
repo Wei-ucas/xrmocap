@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 from torchvision.transforms import Normalize, Resize, ToTensor
 
 from .color import BGR2RGB, RGB2BGR

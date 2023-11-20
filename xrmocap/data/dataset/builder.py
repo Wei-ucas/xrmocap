@@ -1,5 +1,5 @@
 # yapf: disable
-from mmcv.utils import Registry
+from mmengine.registry import Registry
 
 from .base_dataset import BaseDataset
 from .bottom_up_mview_mperson_dataset import BottomUpMviewMpersonDataset
