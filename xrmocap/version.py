@@ -1,6 +1,6 @@
 # Copyright (c) OpenXRLab. All rights reserved.
 
-__version__ = '0.8.0'
+__version__ = '0.8.0-dev'
 
 
 def parse_version_info(version_str):
